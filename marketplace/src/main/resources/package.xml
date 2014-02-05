@@ -1,0 +1,19 @@
+<!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
+<package type="addon" name="nuxeo-box-api" version="@VERSION@">
+  <title>Nuxeo Box API</title>
+  <description>
+    <p>This addon adds the Box rest API to Nuxeo.</p>
+  </description>
+  <home-page>http://doc.nuxeo.com/</home-page>
+  <vendor>Nuxeo</vendor>
+  <installer restart="true"/>
+  <uninstaller restart="true"/>
+  <nuxeo-validation>nuxeo_certified</nuxeo-validation>
+  <production-state>testing</production-state>
+  <supported>true</supported>
+  <platforms>
+    <platform>dm-@DISTRIB_VERSION@</platform>
+  </platforms>
+  <license>LGPL</license>
+  <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
+</package>
