@@ -4,7 +4,7 @@
   <description>
     <p>This addon adds the Box rest API to Nuxeo.</p>
   </description>
-  <home-page>http://doc.nuxeo.com/</home-page>
+  <home-page>http://github.com/nuxeo/nuxeo-box-api</home-page>
   <vendor>Nuxeo</vendor>
   <installer restart="true"/>
   <uninstaller restart="true"/>
@@ -12,8 +12,12 @@
   <production-state>testing</production-state>
   <supported>true</supported>
   <platforms>
-    <platform>dm-@DISTRIB_VERSION@</platform>
+    <platform>cap-@DISTRIB_VERSION@</platform>
+    <platform>cap-@DISTRIB_VERSION@-HF*</platform>
   </platforms>
+  <dependencies>
+    <package>nuxeo-dm</package>
+  </dependencies>
   <license>LGPL</license>
   <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
 </package>
