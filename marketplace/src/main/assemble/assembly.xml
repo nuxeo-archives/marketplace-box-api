@@ -15,15 +15,12 @@
   </target>
 
   <target name="expand">
-    <!-- Include your artifacts in the graph adding your groupId to groupPrefixes -->
     <artifact:nuxeo-expand includeTestScope="true"
-                           groupPrefixes="org.nuxeo,com.nuxeo"/>
-    <!-- For Nuxeo IDE being able to use that distribution as a SDK -->
+                           groupPrefixes="org.nuxeo"/>
     <artifact:print output="${outdir}/artifacts-box-api.properties" mode="sdk"/>
     <artifact:print output="${outdir}/test-artifacts-box-api.properties"
                     mode="sdk"
                     scopes="test"/>
-    <!-- Prints the graph for debugging purpose -->
     <artifact:print output="${outdir}/dependency-tree.log"/>
   </target>
 
@@ -58,8 +55,6 @@
       <artifact:set>
         <includes>
           <artifact groupId="org.nuxeo*" scope="!test" type="!pom"/>
-          <!-- Include your artifacts using their groupId for instance -->
-          <artifact groupId="com.nuxeo*" scope="!test" type="!pom"/>
         </includes>
       </artifact:set>
     </copy>
@@ -69,10 +64,6 @@
         <includes>
           <artifact groupId="!org.nuxeo*" scope="!test"/>
         </includes>
-        <excludes>
-          <!-- Filter out your artifacts using their groupId for instance -->
-          <artifact groupId="com.nuxeo*"/>
-        </excludes>
       </artifact:set>
     </copy>
     <move todir="${outdir}/nxr/lib">

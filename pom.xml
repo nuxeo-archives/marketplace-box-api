@@ -12,12 +12,10 @@
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <name>Nuxeo Box API Marketplace package</name>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <properties>
-    <marketplace.box.api.version>1.0-SNAPSHOT</marketplace.box.api.version>
-    <nuxeo.distribution.tools.version>2.0-SNAPSHOT
-    </nuxeo.distribution.tools.version>
+    <marketplace.box.api.version>1.0.1-SNAPSHOT</marketplace.box.api.version>
     <nuxeo.distribution.version>5.9.3-SNAPSHOT</nuxeo.distribution.version>
   </properties>
 
@@ -37,13 +35,13 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.nuxeo.marketplace.box.api</groupId>
+        <groupId>org.nuxeo.marketplace.box.api</groupId>
         <artifactId>nxr</artifactId>
         <version>${marketplace.box.api.version}</version>
         <type>zip</type>
       </dependency>
       <dependency>
-        <groupId>com.nuxeo.marketplace.box.api</groupId>
+        <groupId>org.nuxeo.marketplace.box.api</groupId>
         <artifactId>marketplace-box-api</artifactId>
         <version>${marketplace.box.api.version}</version>
         <type>zip</type>
