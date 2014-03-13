@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.nuxeo.marketplace.box.api</groupId>
+    <groupId>org.nuxeo.marketplace.box.api</groupId>
     <artifactId>parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
@@ -20,9 +20,9 @@
       <type>pom</type>
     </dependency>
     <dependency>
-      <groupId>com.nuxeo.box.api</groupId>
+      <groupId>org.nuxeo.box.api</groupId>
       <artifactId>nuxeo-box-api</artifactId>
-      <version>${nuxeo.distribution.version}</version>
+      <version>5.9.2.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
