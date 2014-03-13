@@ -13,7 +13,7 @@
   <supported>true</supported>
   <platforms>
     <platform>cap-@DISTRIB_VERSION@</platform>
-    <platform>cap-@DISTRIB_VERSION@-HF*</platform>
+    <platform>cap-5.9.3-I*</platform>
   </platforms>
   <dependencies>
     <package>nuxeo-dm</package>
