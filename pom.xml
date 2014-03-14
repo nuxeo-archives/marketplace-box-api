@@ -8,7 +8,7 @@
     <version>5.9.3-SNAPSHOT</version>
   </parent>
 
-  <groupId>com.nuxeo.marketplace.box.api</groupId>
+  <groupId>org.nuxeo.marketplace.box.api</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <name>Nuxeo Box API Marketplace package</name>
