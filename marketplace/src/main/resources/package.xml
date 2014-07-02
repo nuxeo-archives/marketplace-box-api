@@ -12,11 +12,10 @@
   <production-state>testing</production-state>
   <supported>true</supported>
   <platforms>
-    <platform>cap-@DISTRIB_VERSION@</platform>
-    <platform>cap-5.9.3-I*</platform>
+    <platform>cap-@TARGET_VERSION@</platform>
   </platforms>
   <dependencies>
-    <package>nuxeo-dm</package>
+    <package>nuxeo-dm:@TARGET_VERSION@</package>
   </dependencies>
   <license>LGPL</license>
   <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
