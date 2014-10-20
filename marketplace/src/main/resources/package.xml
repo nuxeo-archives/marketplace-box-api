@@ -6,18 +6,15 @@
   </description>
   <home-page>http://github.com/nuxeo/nuxeo-box-api</home-page>
   <vendor>Nuxeo</vendor>
-  <installer restart="true"/>
-  <uninstaller restart="true"/>
+  <installer restart="true" />
+  <uninstaller restart="true" />
   <nuxeo-validation>nuxeo_certified</nuxeo-validation>
   <production-state>testing</production-state>
   <supported>true</supported>
   <platforms>
     <platform>cap-@DISTRIB_VERSION@</platform>
   </platforms>
-  <dependencies>
-    <package>nuxeo-dm</package>
-  </dependencies>
-  <license>LGPL</license>
-  <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
+  <license>LGPL 2.1</license>
+  <license-url>http://www.gnu.org/licenses/lgpl-2.1.html</license-url>
   <visibility>PUBLIC</visibility>
 </package>
