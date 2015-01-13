@@ -10,10 +10,10 @@
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <name>Nuxeo Box API Marketplace package</name>
-  <version>1.1.1-SNAPSHOT</version>
+  <version>1.2.0-SNAPSHOT</version>
 
   <properties>
-    <marketplace.box.api.version>1.1.1-SNAPSHOT</marketplace.box.api.version>
+    <marketplace.box.api.version>1.2.0-SNAPSHOT</marketplace.box.api.version>
     <nuxeo.distribution.version>7.1-SNAPSHOT</nuxeo.distribution.version>
   </properties>
 
