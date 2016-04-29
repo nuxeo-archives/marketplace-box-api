@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>7.10-HF01-SNAPSHOT</version>
+    <version>7.10-HF10-SNAPSHOT</version>
   </parent>
 
   <groupId>org.nuxeo.marketplace.box.api</groupId>
@@ -14,7 +14,7 @@
 
   <properties>
     <marketplace.box.api.version>1.2.5-SNAPSHOT</marketplace.box.api.version>
-    <nuxeo.distribution.version>7.10-HF01-SNAPSHOT</nuxeo.distribution.version>
+    <nuxeo.distribution.version>7.10-HF10-SNAPSHOT</nuxeo.distribution.version>
   </properties>
 
   <modules>
