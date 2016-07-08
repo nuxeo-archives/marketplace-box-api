@@ -3,18 +3,18 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>8.3-SNAPSHOT</version>
+    <version>8.4-SNAPSHOT</version>
   </parent>
 
   <groupId>org.nuxeo.marketplace.box.api</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <name>Nuxeo Box API Marketplace package</name>
-  <version>1.3.2-SNAPSHOT</version>
+  <version>1.3.3-SNAPSHOT</version>
 
   <properties>
-    <marketplace.box.api.version>1.3.2-SNAPSHOT</marketplace.box.api.version>
-    <nuxeo.distribution.version>8.3-SNAPSHOT</nuxeo.distribution.version>
+    <marketplace.box.api.version>1.3.3-SNAPSHOT</marketplace.box.api.version>
+    <nuxeo.distribution.version>8.4-SNAPSHOT</nuxeo.distribution.version>
   </properties>
 
   <modules>
