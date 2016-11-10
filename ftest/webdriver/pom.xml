@@ -7,33 +7,15 @@
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
-  <artifactId>webdriver</artifactId>
-  <name>Nuxeo Box API functional tests with WebDriver</name>
-  <description>Nuxeo Box API functional tests with WebDriver</description>
+  <artifactId>startup</artifactId>
+  <name>Nuxeo Box API Startup test</name>
+  <description>Nuxeo Box API Startup test</description>
 
   <properties>
     <some.password>setTheValueInYourSettings</some.password>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-server-standalone</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.nuxeo.ecm.distribution</groupId>
-      <artifactId>nuxeo-functional-tests</artifactId>
-      <scope>test</scope>
-    </dependency>
     <dependency>
       <groupId>org.nuxeo.marketplace.box.api</groupId>
       <artifactId>marketplace-box-api</artifactId>
@@ -42,8 +24,7 @@
     </dependency>
     <dependency>
       <groupId>org.nuxeo.ecm.distribution</groupId>
-      <artifactId>nuxeo-distribution-tomcat</artifactId>
-      <classifier>nuxeo-cap</classifier>
+      <artifactId>nuxeo-server-tomcat</artifactId>
       <type>zip</type>
       <scope>test</scope>
     </dependency>

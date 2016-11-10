@@ -15,6 +15,7 @@
   <properties>
     <marketplace.box.api.version>1.3.4-SNAPSHOT</marketplace.box.api.version>
     <nuxeo.distribution.version>8.10-SNAPSHOT</nuxeo.distribution.version>
+    <nuxeo.quota.nxr.version>1.6.3-SNAPSHOT</nuxeo.quota.nxr.version>
   </properties>
 
   <modules>
@@ -42,6 +43,13 @@
         <groupId>org.nuxeo.marketplace.box.api</groupId>
         <artifactId>marketplace-box-api</artifactId>
         <version>${marketplace.box.api.version}</version>
+        <type>zip</type>
+      </dependency>
+      <dependency>
+        <groupId>org.nuxeo.marketplace.quota</groupId>
+        <artifactId>marketplace</artifactId>
+        <classifier>nxr-server</classifier>
+        <version>${nuxeo.quota.nxr.version}</version>
         <type>zip</type>
       </dependency>
     </dependencies>
