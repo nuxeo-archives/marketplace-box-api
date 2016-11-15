@@ -11,10 +11,11 @@
   <import file="${out.dir}/nuxeo-ftest.xml" />
 
   <property name="mp.install"
-            value="file:${out.dir}/marketplace-box-api-${marketplace.box.api.version}.zip" />
+            value="file:${out.dir}/marketplace-${marketplace.quota.version}.zip, file:${out.dir}/marketplace-box-api-${marketplace.box.api.version}.zip" />
   <target name="prepare-environment"
           depends="_init,prepare-db,prepare-tomcat">
     <copy todir="${out.dir}">
+      <artifact:file key="org.nuxeo.marketplace.quota:marketplace::zip" />
       <artifact:file key="org.nuxeo.marketplace.box.api:marketplace-box-api::zip" />
     </copy>
   </target>

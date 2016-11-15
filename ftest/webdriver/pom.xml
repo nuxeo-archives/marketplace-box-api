@@ -17,6 +17,12 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.nuxeo.marketplace.quota</groupId>
+      <artifactId>marketplace</artifactId>
+      <type>zip</type>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       <groupId>org.nuxeo.marketplace.box.api</groupId>
       <artifactId>marketplace-box-api</artifactId>
       <type>zip</type>

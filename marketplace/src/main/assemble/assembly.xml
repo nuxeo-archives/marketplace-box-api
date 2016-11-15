@@ -66,7 +66,7 @@
 
     <unzip src="${outdir}/nuxeo-nxr-server-${nuxeo.distribution.version}.zip"
            dest="${outdir}/nuxeo-nxr-server" />
-    <unzip src="${outdir}/marketplace-${nuxeo.quota.nxr.version}-nxr-server.zip"
+    <unzip src="${outdir}/marketplace-${marketplace.quota.version}-nxr-server.zip"
            dest="${outdir}/nuxeo-nxr-server" />
     <zip destfile="${outdir}/nuxeo-nxr-server-${nuxeo.distribution.version}.zip"
          basedir="${outdir}/nuxeo-nxr-server" />
