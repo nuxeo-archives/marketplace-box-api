@@ -14,7 +14,6 @@
 
   <properties>
     <marketplace.box.api.version>1.2.5-SNAPSHOT</marketplace.box.api.version>
-    <nuxeo.distribution.version>7.10-HF10-SNAPSHOT</nuxeo.distribution.version>
   </properties>
 
   <modules>
