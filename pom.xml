@@ -14,7 +14,6 @@
 
   <properties>
     <marketplace.box.api.version>1.4.0-SNAPSHOT</marketplace.box.api.version>
-    <nuxeo.distribution.version>9.1-SNAPSHOT</nuxeo.distribution.version>
     <marketplace.quota.version>1.7.0-SNAPSHOT</marketplace.quota.version>
   </properties>
 
